@@ -1,0 +1,35 @@
+.container {
+  width: 500px;
+  height: 800px;
+  margin-left: 40%;
+  background-color: rgb(216, 231, 231);
+  border: 1px solid rgb(221, 172, 172);
+}
+.listItem {
+  float: left;
+  margin-top: 10px;
+  display: inline;
+  border: 0px solid red;
+  width: 72%;
+  background-color: white;
+  border-radius: 15px;
+  height: 34px;
+  padding-left: 10px;
+  text-align: start;
+  padding-top: 5px;
+  cursor: alias;
+  font-size: larger;
+  font-weight: bold;
+}
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 15px 0px 15px;
+}
+.errorClass {
+  color: red;
+  margin-right: 73%;
+  display: inherit;
+  float: left;
+}
