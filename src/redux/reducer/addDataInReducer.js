@@ -17,11 +17,11 @@ export const AddDataInReducer = (
         list: payload,
       });
     case DELTETE_ITEM_IN_LIST: // for item delete
-      return state.filter((item) => item.id != payload);
+      return state.filter((item) => item.id !== payload);
 
     case EDIT_ITEM_IN_LIST: // for item Editable
       return state.map((i) => {
-        if (i.id == payload) {
+        if (i.id === payload) {
           return { ...i, list: list };
         }
         return { ...i };
