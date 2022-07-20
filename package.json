@@ -7,6 +7,7 @@
     "@emotion/styled": "^11.9.3",
     "@mui/material": "^5.9.1",
     "antd": "^4.21.7",
+    "bootstrap": "5.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
@@ -16,11 +17,25 @@
     "redux-devtools-extension": "^2.13.9",
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0"
+    
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "eject"
+    : "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+   
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+ 
+ 
+ 
+ 
+ 
 }
+
